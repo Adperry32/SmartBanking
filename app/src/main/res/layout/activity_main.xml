@@ -7,12 +7,15 @@
     tools:context=".MainActivity">
 
     <EditText
+        android:inputType="text"
         android:id="@+id/user_Login_ET"
         android:layout_width="300dp"
         android:layout_height="45dp"
-        android:hint="Username/Email"
+        android:hint="@string/login_hint_text"
+        android:autofillHints="username"
         android:background="@color/blue_grey"
         android:textColor="@color/black"
+        android:textColorHint="@color/black"
         android:layout_marginTop="324dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -21,17 +24,21 @@
     </EditText>
 
     <EditText
+
         android:id="@+id/user_Login_Password_ET"
         android:layout_width="300dp"
         android:layout_height="45dp"
         android:layout_marginTop="384dp"
         android:background="@color/blue_grey"
-        android:hint="Password"
+        android:hint="@string/login_password_hint_text"
+        android:autofillHints="password"
         android:textColor="@color/black"
+        android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:inputType="textPassword">
 
     </EditText>
 

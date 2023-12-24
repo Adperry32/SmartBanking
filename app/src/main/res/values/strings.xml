@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SmartFundsBank</string>
+    <string name="login_hint_text">Username/Email</string>
+    <string name="login_password_hint_text">Password</string>
 </resources>
